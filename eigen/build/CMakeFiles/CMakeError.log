@@ -1,0 +1,99 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec990714490/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec990714490.dir/build.make CMakeFiles/cmTryCompileExec990714490.dir/build
+make[1]: Entering directory '/home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec990714490.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTryCompileExec990714490.dir/src.cxx.o -c /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTryCompileExec990714490.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec990714490.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec990714490.dir/src.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec990714490/fast' failed
+make: *** [cmTryCompileExec990714490/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3358274494/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3358274494.dir/build.make CMakeFiles/cmTryCompileExec3358274494.dir/build
+make[1]: Entering directory '/home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3358274494.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTryCompileExec3358274494.dir/src.cxx.o -c /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTryCompileExec3358274494.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3358274494.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3358274494.dir/src.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec3358274494/fast' failed
+make: *** [cmTryCompileExec3358274494/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec441857696/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec441857696.dir/build.make CMakeFiles/cmTryCompileExec441857696.dir/build
+make[1]: Entering directory '/home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec441857696.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTryCompileExec441857696.dir/src.cxx.o -c /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'
+CMakeFiles/cmTryCompileExec441857696.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec441857696.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec441857696.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec441857696/fast' failed
+make: *** [cmTryCompileExec441857696/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3606839288/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3606839288.dir/build.make CMakeFiles/cmTryCompileExec3606839288.dir/build
+make[1]: Entering directory '/home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3606839288.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTryCompileExec3606839288.dir/src.cxx.o -c /home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+CMakeFiles/cmTryCompileExec3606839288.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3606839288.dir/src.cxx.o' failed
+make[1]: Leaving directory '/home/dowoncha/Github/Shrodingers/eigen/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3606839288.dir/src.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec3606839288/fast' failed
+make: *** [cmTryCompileExec3606839288/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -fpp
+
+The output was:
+No such file or directory
+
+

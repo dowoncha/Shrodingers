@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/shrodinger.dir/Shrodingers.cpp.o  -o shrodinger -rdynamic 
