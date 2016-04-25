@@ -1,4 +1,0 @@
-# Target labels
- BuildOfficial
-# Source files and their labels
-/home/dowoncha/Github/Shrodingers/eigen/test/integer_types.cpp

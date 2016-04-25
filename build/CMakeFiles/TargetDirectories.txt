@@ -1,1 +1,0 @@
-/home/dowoncha/Github/Shrodingers/build/CMakeFiles/shrodinger.dir

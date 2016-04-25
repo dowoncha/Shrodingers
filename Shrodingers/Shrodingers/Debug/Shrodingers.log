@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  Shrodingers.cpp
+c:\users\dowoncha\documents\shrodingers\shrodingers\shrodingers\shrodingers.cpp(321): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\dowoncha\documents\shrodingers\shrodingers\shrodingers\shrodingers.cpp(367): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Shrodingers.vcxproj -> C:\Users\dowoncha\Documents\Shrodingers\Shrodingers\Debug\Shrodingers.exe
