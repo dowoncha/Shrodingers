@@ -6,7 +6,7 @@
 #define M_TWOPIINVERSE 0.3989422804			// 1 / std(2 * PI)
 #define M_I sqrt(-1)						// imaginary number
 
-#include <cmath>							
+#include <cmath>
 #include <complex>
 #include <vector>
 #include <iostream>
@@ -25,15 +25,15 @@ private:
 	vector<double> x_;						// x coordinate
 	vector<double> k_;						// momentum
 	vector<double> Vx_;						// Potential
-		
+
 	sample_size_t size_;						// x_.size == k.size == vx.size
 
 	//wave_function_t psiX_;					//
 	wave_function_t psiX_;				//
-	wave_function_t psiK_;				// 
+	wave_function_t psiK_;				//
 
 	Eigen::FFT<double> fft;					// Eigen is a library to perform fast fourier transforms.
-	
+
 	// Initial Parameters
 	double hbar_;		// Planck's constant
 	double mass_;		// Mass of particle
@@ -54,7 +54,7 @@ public:
 		double kMin,									// Initial momentum
 		double hbar = 1.0f,								// Planck's constant default 1.0
 		double mass = 1.0f,								// mass default = 1.0
-		double t0 = 0.0f) :								// Initial time default = 0.0) :				
+		double t0 = 0.0f) :								// Initial time default = 0.0) :
 		// Assignment
 		x_(x),
 		size_(x.size()),
@@ -67,7 +67,7 @@ public:
 		dt_(0.01),						// Set default change in time dt=0.01;
 		dx_(x_.at(1) - x_.at(0)),		// Initial dx is difference between firsttwo points
 		dk_(2 * M_PI / (size_ * dx_))
-	{	
+	{
 		// If minimum momentum is 10 then calculate from total values
 		if (kMin == 0.0f)
 		{
@@ -91,7 +91,7 @@ public:
 
 		computeKFromX();
 	}
-	
+
 	~Shrodinger()
 	{
 	}
@@ -124,7 +124,7 @@ public:
 			term /= norm;
 		}
 	}
-	
+
 	wave_function_t get_psiK()
 	{
 
@@ -208,7 +208,7 @@ public:
 		{
 			++i;
 			time_step(M_I * dt_, steps);		// Go through n time steps
-			dPsi = wave_norm(psiX_);	
+			dPsi = wave_norm(psiX_);
 			oldPsiX = psiX_;
 		}
 		t_ = t0;
@@ -219,7 +219,7 @@ public:
 		assert(steps >= 0);
 
 		set_dt(dt);							// Set the new change in time
-		
+
 		// Evolve each x by a half step
 		for (sample_size_t i = 0; i < size_; ++i ) { psiX_.at(i) *= x_half_step_.at(i); }
 
@@ -294,7 +294,7 @@ vector<double> potential_barrier(const vector<double>& x, double width, double h
 // Create a gaussian wave functino from x domain points and intial box parameters
 wave_function_t gaussian_wave(vector<double> x, double width, double x0, double k0)
 {
-	vector<complex<double>> psiX;
+	wave_function_t psiX;
 
 	double coef = pow(width * sqrt(M_PI), -0.5);
 
@@ -322,7 +322,7 @@ int main(int argc, char** argv)
 	double dx = 0.1;			 // change in x
 
 	// points in x domain
-	vector<double> x;    
+	vector<double> x;
 	for (int i = 0; i < xMax; ++i)
 	{
 		x.push_back(dx * (i - 0.5 * xMax));
